@@ -23,7 +23,7 @@ export default () => (
                                     
                                         <span className="4u 12u$(medium)"><img src="/static/images/pic01.jpg" alt="" /></span>
                                         <span className="4u 12u$(medium)"><img src="/static/images/pic02.jpg" alt="" /></span>
-                                        <span className="4u 12u$(medium)"><img src="/static/images/pic02.jpg" alt="" /></span>
+                                        <span className="4u 12u$(medium)"><img src="/static/images/pic03.jpg" alt="" /></span>
                                     </div>
                             </div>
 

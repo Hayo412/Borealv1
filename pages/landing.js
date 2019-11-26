@@ -12,7 +12,6 @@ export default () => (
         </Head>
 
         <div>
-            <BannerLanding />
 
             <div id="main">
                 <section id="one">
