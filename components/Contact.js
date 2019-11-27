@@ -2,7 +2,7 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
 
-            <section className="style2">
+            <section className="row">
                 <section>
                     <div className="contact-method">
                         <h3>PHONE</h3>

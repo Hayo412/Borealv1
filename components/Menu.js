@@ -5,13 +5,12 @@ const Menu = (props) => (
     <nav id="menu">
         <div className="inner">
             <ul className="links">
-                <li><Link href="/"><a><span onClick={props.onToggleMenu}>Home</span></a></Link></li>
-                <li><Link href="/landing"><a><span onClick={props.onToggleMenu}>Landing</span></a></Link></li>
-                <li><Link href="/generic"><a><span onClick={props.onToggleMenu}>Generic</span></a></Link></li>
-                <li><Link href="/elements"><a><span onClick={props.onToggleMenu}>Elements</span></a></Link></li>
+                <li><Link href="/"><a><span onClick={props.onToggleMenu}>What we do</span></a></Link></li>
+                <li><Link href="/#"><a><span onClick={props.onToggleMenu}>Work process</span></a></Link></li>
+                <li><Link href="/who"><a><span onClick={props.onToggleMenu}>Who we are</span></a></Link></li>
             </ul>
             <ul className="actions vertical">
-                <li><a href="wedo" className="button special fit">what we do</a></li>
+                <li><a href="#" className="button special fit">Contact Us</a></li>
             </ul>
         </div>
         <a className="close" onClick={props.onToggleMenu} href="javascript:;">Close</a>
@@ -23,3 +22,5 @@ Menu.propTypes = {
 }
 
 export default Menu
+
+
