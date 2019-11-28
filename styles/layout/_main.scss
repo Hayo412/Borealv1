@@ -4,7 +4,12 @@
 
 	#main {
 		background-color: _palette(bg-alt);
-		
+		h2{
+			text-align: center;
+			font-weight: 300;
+			color:#171717;
+			margin: 1.8em;
+		}
 
 		> * {
 			border-top: solid 1px _palette(border);

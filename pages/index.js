@@ -12,9 +12,22 @@ export default () => (
         <div id="main" className="alt">
             <section id="one">
                 <div className="inner">
+                <span className="image main"><img src="/static/images/banner.jpg" alt="" /></span>
+                <div><h2  >3D RENDERING | VIRTUAL REALITY | REAL ESTATE VIDEO</h2></div>
                     <div className="row">
-                        <span className="image main"><img src="/static/images/banner.jpg" alt="" /></span>
-                            <h2>3D RENDERING | VIRTUAL REALITY | REAL ESTATE VIDEO</h2>
+                        
+                          
+                            <div className="4u 12u$(medium)">
+                                <span className="image main"><img src="/static/images/pic01.jpg" alt="" /></span>
+                            </div>
+        
+                            <div className="4u 12u$(medium)">
+                                <span className="image main"><img src="/static/images/pic02.jpg" alt="" /></span>
+                            </div>
+                            
+                            <div className="4u 12u$(medium)">
+                                <span className="image main"><img src="/static/images/pic03.jpg" alt="" /></span>
+                            </div>
                             <div className="6u 12u$(small)">
                                 <span className="image main"><img src="/static/images/pic04.jpg" alt="" /></span>  
                             </div>
