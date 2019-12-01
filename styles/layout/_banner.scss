@@ -1,5 +1,4 @@
 
-
 /* Banner */
 
 	#banner {
@@ -14,7 +13,7 @@
 		border-bottom: 0 !important;
 		cursor: default;
 		height: 60vh;
-		margin-bottom: -3.25em;
+		margin-top: 3.5em;
 		max-height: 32em;
 		min-height: 22em;
 		position: relative;
@@ -24,7 +23,8 @@
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
 			@include vendor('transition-delay', '0.75s');
 			@include vendor('pointer-events', 'none');
-			background-color: _palette(bg);
+			
+			
 			content: '';
 			display: block;
 			height: 100%;

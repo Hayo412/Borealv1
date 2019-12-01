@@ -6,9 +6,11 @@
 		border: 0;
 		display: inline-block;
 		position: relative;
+	s
 
 		img {
 			display: block;
+			
 		}
 
 		&.left,
@@ -17,6 +19,7 @@
 
 			img {
 				width: 100%;
+				
 			}
 		}
 
@@ -46,7 +49,9 @@
 			display: block;
 			margin: (_size(element-margin) * 1.25) 0;
 			width: 100%;
-
+			
+		
+	
 			img {
 				width: 100%;
 			}
@@ -56,3 +61,4 @@
 			}
 		}
 	}
+

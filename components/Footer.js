@@ -8,7 +8,7 @@ const Footer = (props) => (
              egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, 
              commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
             <section className="row">
-                
+            
                     <div className="4u 12u$(medium)">
                         <h4>PHONE</h4> 
                         <div><hr/></div>
