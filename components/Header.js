@@ -2,7 +2,9 @@ import PropTypes from 'prop-types'
 import Link from 'next/link'
 
 const Header = (props) => (
-    <header id="header" className="alt">
+    <header id="header" className="alt ">
+
+   
         <Link href="index">
             <a className="logo"><strong>=</strong> <span>BOREAL</span></a>
         </Link>
@@ -27,6 +29,7 @@ const Header = (props) => (
         </Link>
             <a className="nodesktop menu-link" onClick={props.onToggleMenu} href="javascript:;">Menu</a>
         </nav>
+        
     </header>
 )
 
