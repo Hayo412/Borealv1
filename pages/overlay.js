@@ -21,9 +21,9 @@ export default () => (
                         
                             <div className="4u 12u$(medium) tiles ">
                                 <article style={{backgroundImage: `url('/static/images/pic01.jpg')`}}>
-                                    <header className="major">
-                                        <h3>Aliquam</h3>
-                                        <p>Ipsum dolor sit amet</p>
+                                    <header>
+                                        <h3> <span className="icon fa-cube"></span> <br/>3D<br/>Rendering</h3>
+                                        
                                     </header>
                                     <Link href="/#"><a className="link primary"></a></Link>
                                 </article>
@@ -32,9 +32,8 @@ export default () => (
                         
                             <div className="4u 12u$(medium) tiles">
                                 <article style={{backgroundImage: `url('/static/images/pic02.jpg')`}}>
-                                    <header className="major">
-                                        <h3>Aliquam</h3>
-                                        <p>Virtual Reality</p>
+                                    <header className="">
+                                        <h3> <span className="icon fa-vr-card-board"></span> <br/>Virtual<br/>Reality</h3>
                                     </header>
                                     <Link href="/#"><a className="link primary"></a></Link>
                                 </article>
@@ -42,40 +41,56 @@ export default () => (
                             
                             <div className="4u 12u$(medium) tiles">
                                 <article style={{backgroundImage: `url('/static/images/pic03.jpg')`}}>
-                        <header className="major">
-                            <h3>Aliquam</h3>
-                            <p>Ipsum dolor sit amet</p>
+                        <header>
+                            <h3> <span className="icon fa-home"></span> <br/>Real Estate<br/>Video</h3>
                         </header>
                         <Link href="/#"><a className="link primary"></a></Link>
                     </article>
                             </div>
                       
-                            <div className="6u 12u$(small)">
-                                <span className="image main "><img src="/static/images/pic04.jpg" alt="" /></span>  
-                            </div>
-                            <div className="6u 12u$(small)">
-                                <span className="image main"><img src="/static/images/pic05.jpg" alt="" /></span>
-                            </div>
-
-                            <div className="6u 12u$(small)">
-                                    <span className="image main"><img src="/static/images/pic06.jpg" alt="" /></span>  
-                                </div>
-                                <div className="6u 12u$(small)">
-                                    <span className="image main"><img src="/static/images/pic07.jpg" alt="" /></span>
+                            <div className="6u 12u$(small) tileslow">
+                                <article style={{backgroundImage: `url('/static/images/pic04.jpg')`}}>
+                                    <Link href="/#"><a className="link primary"></a></Link>
+                                </article>  
                             </div>
 
-                            <span className="image main"><img src="/static/images/pic08.jpg" alt="" /></span>
+                            <div className="6u 12u$(small) tileslow">
+                                <article style={{backgroundImage: `url('/static/images/pic05.jpg')`}}>
+                                    <Link href="/#"><a className="link primary"></a></Link>
+                                </article>  
+                            </div>
+
+                            <div className="6u 12u$(small) tileslow">
+                                <article style={{backgroundImage: `url('/static/images/pic06.jpg')`}}>
+                                    <Link href="/#"><a className="link primary"></a></Link>
+                                </article>  
+                            </div>
+                            <div className="6u 12u$(small) tileslow">
+                                <article style={{backgroundImage: `url('/static/images/pic07.jpg')`}}>
+                                    <Link href="/#"><a className="link primary"></a></Link>
+                                </article>  
+                            </div>
+
+                            <span className="image main tileslow"><article style={{backgroundImage: `url('/static/images/pic08.jpg')`}}>
+                                <Link href="/#"><a className="link primary"></a></Link></article></span>
+                            
                 
-                                <div className="4u 12u$(medium)">
-                                    <span className="image main"><img src="/static/images/pic09.jpg" alt="" /></span>
+                                <div className="4u 12u$(medium) tileslow">
+                                    <article style={{backgroundImage: `url('/static/images/pic09.jpg')`}}>
+                                        <Link href="/#"><a className="link primary"></a></Link>
+                                    </article>
                                 </div>
             
-                                <div className="4u 12u$(medium)">
-                                    <span className="image main"><img src="/static/images/pic10.jpg" alt="" /></span>
+                                <div className="4u 12u$(medium) tileslow">
+                                    <article style={{backgroundImage: `url('/static/images/pic10.jpg')`}}>
+                                        <Link href="/#"><a className="link primary"></a></Link>
+                                    </article>
                                 </div>
                                 
-                                <div className="4u 12u$(medium)">
-                                    <span className="image main"><img src="/static/images/pic11.jpg" alt="" /></span>
+                                <div className="4u 12u$(medium) tileslow">
+                                    <article style={{backgroundImage: `url('/static/images/pic11.jpg')`}}>
+                                        <Link href="/#"><a className="link primary"></a></Link>
+                                    </article>
                                 </div>
                         </div>
                 </div>
