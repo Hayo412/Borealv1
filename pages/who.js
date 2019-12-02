@@ -1,80 +1,38 @@
 import Head from "next/head"
-import Link from 'next/link'
 
 import Layout from '../components/Layout'
-
 
 export default () => (
     <Layout>
         <Head>
             <title>Who we are</title>
-            <meta name="description" content="Landing Page" />
+            <meta name="description" content="Elements Page" />
         </Head>
 
-        <div>
+        <div id="main" className="alt">
 
-            <div id="main">
-                <section id="one">
-                    <div className="inner">
-                        <header className="major">
-                            <h2>Who we are</h2>
-                        </header>
-                        <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+            <section id="one">
+                <div className="inner">
+                    <header className="major">
+                        <h2>Who we are</h2>
+                    </header>
+
+                    <p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
+                    <div className="row">
+                        <div className="6u 12u$(small)">
+                            <h3>Sem turpis amet semper</h3>
+                            <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+                        </div>
+                        <div className="6u 12u$(small)">
+                            <h3>Magna  tempus commodo</h3>
+                            <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor. Ante commodo blandit adipiscing integer semper orci eget. Faucibus commodo adipiscing mi eu nullam accumsan morbi arcu ornare odio mi adipiscing nascetur lacus ac interdum morbi accumsan vis mi accumsan ac praesent.</p>
+                        </div>
+                        
+         
                     </div>
-                </section>
-                <section id="two" className="spotlights">
-                    <section>
-                        <Link href="/index">
-                            <a className="image"><img src="/static/images/pic08.jpg" alt="" /></a>
-                        </Link>
 
-
-                        <div className="content">
-                            <div>
-                                <header className="major">
-                                    <h3>Orci maecenas</h3>
-                                </header>
-                                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                                <ul className="actions">
-                                    <li><Link href="/index"><a className="button">Learn more</a></Link></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                    <section>
-                        <Link href="/index">
-                            <a className="image"><img src="/static/images/pic09.jpg" alt="" /></a>
-                        </Link>
-                        <div className="content">
-                            <div className="inner">
-                                <header className="major">
-                                    <h3>Rhoncus magna</h3>
-                                </header>
-                                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                                <ul className="actions">
-                                    <li><Link href="/index"><a className="button">Learn more</a></Link></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                    <section>
-                        <Link href="/index">
-                            <a className="image"><img src="/static/images/pic10.jpg" alt="" /></a>
-                        </Link>
-                        <div className="content">
-                            <div className="inner">
-                                <header className="major">
-                                    <h3>Sed nunc ligula</h3>
-                                </header>
-                                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                                <ul className="actions">
-                                    <li><Link href="/index"><a className="button">Learn more</a></Link></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                </section>
-            </div>
+                </div>
+            </section>
 
         </div>
     </Layout>

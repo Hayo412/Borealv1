@@ -4,25 +4,25 @@ import Link from 'next/link'
 const Header = (props) => (
     <header id="header" className="alt">
         <Link href="index">
-            <span className="logo"><img src="/static/images/logotipo.jpg" alt="" /></span>
+            <a className="logo"><strong>=</strong> <span>BOREAL</span></a>
         </Link>
         <nav>
         
         <Link href="index">
-            <a ><span>What we do</span></a>
+            <a className="hidemobile" ><span>What we do</span></a>
         </Link>
 
         <Link href="who">
-            <a ><span>Who we are</span></a>
+            <a className="hidemobile"><span>Who we are</span></a>
         </Link>
 
         <Link href="index">
-            <a ><span>Contact Us</span></a>
+            <a className="hidemobile"><span>Contact Us</span></a>
         </Link>
 
         <Link href="index">
             <ul className="actions ">
-                <li><a href="#" className="button special fit small">Hire Us</a></li>
+                <li><a  href="#" className="button special fit hidemobile">Hire Us</a></li>
             </ul>
         </Link>
 

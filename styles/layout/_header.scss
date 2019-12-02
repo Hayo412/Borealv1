@@ -187,6 +187,10 @@
 			height: 2.75em;
 			line-height: 2.75em;
 
+			.hidemobile{
+				display: none;
+			}
+
 			.logo {
 				padding: 0 1em;
 			}
@@ -223,6 +227,10 @@
 				span {
 					display: none;
 				}
+			}
+
+			.hidemobile{
+				display: none;
 			}
 
 			nav {
