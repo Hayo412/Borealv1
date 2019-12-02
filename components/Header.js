@@ -25,10 +25,7 @@ const Header = (props) => (
                 <li><a  href="#" className="button special fit hidemobile">Hire Us</a></li>
             </ul>
         </Link>
-
-
-
-            <a className="menu-link" onClick={props.onToggleMenu} href="javascript:;">Menu</a>
+            <a className="nodesktop menu-link" onClick={props.onToggleMenu} href="javascript:;">Menu</a>
         </nav>
     </header>
 )

@@ -156,6 +156,10 @@
 		}
 
 		@include breakpoint(xlarge) {
+			.nodesktop{
+				color: white;
+			}
+			
 			nav {
 				a {
 					&.menu-link {
@@ -167,9 +171,11 @@
 					}
 				}
 			}
+			
 		}
 
 		@include breakpoint(large) {
+
 			nav {
 				a {
 					&.menu-link {
@@ -181,11 +187,15 @@
 					}
 				}
 			}
+		
 		}
 
 		@include breakpoint(small) {
 			height: 2.75em;
 			line-height: 2.75em;
+			.nodesktop{
+				color: #171717;
+			}
 
 			.hidemobile{
 				display: none;
