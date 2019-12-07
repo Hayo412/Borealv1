@@ -26,3 +26,94 @@
 			border-bottom: solid 1px white;
 		}
 	}
+
+	.ellogo img{
+		
+		height: 80% ;
+	}
+
+/*---------------------------SIDEBAR------------------------------------------ */
+
+		#sidebar{
+
+			.rotado{
+				transform: rotate(-90deg);
+				color: #5E5E5E;
+				position: absolute;
+				font-size: 14px;
+				width: 362px;
+				padding-bottom: 294px;
+			}
+
+
+	
+			.iconos{
+				text-align: center;
+				text-decoration: none;
+				list-style-type: none;
+				font-size: 12px;
+				padding-top: 12em;	
+			}
+			
+			body{
+				font-family: "Lato", sans-serif;
+				
+			}
+			
+			.sidenav{
+				height: 100%;
+				width: 70px;
+				position: fixed;
+				z-index: 1;
+				top: 0;
+				left: 0;
+				background-color: white;
+				overflow: hidden;
+				
+			}
+			
+			.sidenav a{
+				
+				padding: 2px 8px 3px;
+				text-decoration: none;
+				color: #006955;
+				display: block;
+			}
+
+			.ok{
+				color: #006955 !important;
+				font-size: 28px;
+			}
+
+			.sidenav a:hover{
+				color: black !important;
+			}
+
+			.face1{
+				
+				color: white !important;
+				
+			}
+		
+			.main{
+				margin-left: 80px;
+				font-size: 28px;
+				padding: 0px 10px;
+			}
+			
+
+			@include breakpoint(xsmall) {
+				.logo {
+	
+					margin-left: 0;
+					span {
+						display: none;
+					}
+				}
+	
+				.hidemobile{
+					display: none;
+				}
+
+			}
+		}

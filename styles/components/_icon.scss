@@ -14,13 +14,12 @@
 		&.alt {
 			&:before {
 				background-color: _palette(fg-bold);
-				border-radius: 100%;
 				color: _palette(bg);
 				display: inline-block;
-				height: 2em;
-				line-height: 2em;
+				height: 1.6em;
+				line-height: 1.6em;
 				text-align: center;
-				width: 2em;
+				width: 1.6em;
 			}
 		}
 	}

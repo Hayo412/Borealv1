@@ -4,6 +4,7 @@ import Header from './Header'
 import Menu from './Menu'
 import Footer from './Footer'
 
+
 class Layout extends React.Component {
     constructor(props) {
         super(props)

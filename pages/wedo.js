@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Head from "next/head"
 import Layout from '../components/Layout'
 import Banner from '../components/Banner'
+import Sidenav from '../components/Sidenav'
 
 export default () => (
     <Layout>
@@ -9,11 +10,12 @@ export default () => (
             <title>What we do</title>
             <meta name="description" content="Generic Page" />
         </Head>
+            
         <div id="main" className="alt">
                 <section id="one">
                     <div className="inner">
                         <header className="major">
-                            
+                            <Sidenav/>
                         </header>
                         <span className="image main"><img src="/static/images/banner.jpg" alt="" /></span>
                         <h1>3D RENDERING | VIRTUAL REALITY | REAL ESTATE VIDEO</h1>

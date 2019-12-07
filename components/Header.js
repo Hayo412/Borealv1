@@ -3,13 +3,11 @@ import Link from 'next/link'
 
 const Header = (props) => (
     <header id="header" className="alt ">
-
-   
+    
         <Link href="index">
-            <a className="logo"><strong>=</strong> <span>BOREAL</span></a>
+            <a className="logo"><span className="ellogo"><img src="/static/images/logotipo.jpg" alt="" /></span></a>
         </Link>
         <nav>
-        
         <Link href="index">
             <a className="hidemobile" ><span>What we do</span></a>
         </Link>
